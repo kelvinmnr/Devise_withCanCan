@@ -68,7 +68,7 @@ end
     end
 
     def blog_params
-      params.require(:blog).permit(:title, :description)
+      params.require(:blog).permit(:title, :description, :Image)
     end
 end
 
