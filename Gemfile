@@ -16,6 +16,8 @@ gem 'devise'
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+gem 'carrierwave', '~> 2.0', '>= 2.0.1'
+gem 'mini_magick', '~> 4.9', '>= 4.9.5'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 gem 'cancan', '~> 1.6', '>= 1.6.10'
