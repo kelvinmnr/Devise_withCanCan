@@ -1,14 +1,21 @@
 class BlogsController < ApplicationController
   before_action :set_blog, only: [:show, :edit, :update, :destroy]
+  
 
-
-
+def current_ability
+  if request.fullpath =~ /\/locomotive/
+    @current_ability ||= Locomotive::Ability.new(current_user)
+  else
+    @current_ability ||= Ability.new(current_user)
+  end
+end
 
   def index
     @blogs = Blog.all
   end
 
   def show
+
   end
 
   def new
