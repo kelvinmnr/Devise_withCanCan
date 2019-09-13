@@ -8,12 +8,11 @@ end
 
 gem 'rails', '~> 5.1.7'
 gem 'sqlite3'
+gem "paperclip", "~> 5.0.0"
 
 gem 'devise'
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
-gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
-gem 'file_validators', '~> 2.3'
 gem 'carrierwave', '~> 2.0', '>= 2.0.1'
 gem 'mini_magick', '~> 4.9', '>= 4.9.5'
 gem 'materialize-sass', '~> 1.0'
