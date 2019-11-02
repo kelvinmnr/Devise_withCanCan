@@ -8,7 +8,7 @@ end
 
 gem 'rails', '~> 5.1.7'
 gem 'sqlite3'
-gem "paperclip", "~> 5.0.0"
+gem "paperclip", "~> 5.2.0"
 
 gem 'devise'
 gem 'puma', '~> 3.7'
