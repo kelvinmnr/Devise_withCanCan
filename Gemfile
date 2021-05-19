@@ -11,7 +11,7 @@ gem 'sqlite3'
 gem "paperclip", "~> 5.0.0"
 
 gem 'devise'
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 4.3'
 gem 'sass-rails', '~> 5.0'
 gem 'carrierwave', '~> 2.0', '>= 2.0.1'
 gem 'mini_magick', '~> 4.9', '>= 4.9.5'
